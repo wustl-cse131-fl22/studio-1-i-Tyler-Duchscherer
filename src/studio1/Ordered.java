@@ -14,8 +14,13 @@ public class Ordered {
 		System.out.println("Value for y?");
 		int y = in.nextInt();
 		System.out.println("Value for z?");
-		int z = in.nextInt();
-
+		int z = in.nextInt(); 
+		boolean xandy = x < y ;
+		boolean yandz = y < z;
+		boolean ascending = xandy==yandz ; 
+		System.out.println(ascending);
+		
+		
 	}
 
 }
